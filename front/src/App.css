@@ -1,0 +1,50 @@
+.App {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 600px;
+}
+
+.ChatHistory {
+  margin-bottom: 20px;
+}
+
+.Message {
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.Message.user {
+  background-color: #eee;
+}
+
+.Message.model {
+  background-color: #c7ecee;
+}
+
+.ChatInput {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.ChatInput input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.ChatInput button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ChatInput button:hover {
+  background-color: #0056b3;
+}
